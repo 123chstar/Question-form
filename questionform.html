@@ -1,0 +1,1233 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Question form HTMl</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <header>
+        <h1>HTML Question and Answer Form</h1>
+    </header>
+
+    <form action="formsubmission.html" method="post">
+
+        <div>
+            <button type="reset">Reset</button>
+        </div><br>
+
+        <div>
+            <label for="name">First of all what's your name? &nbsp;</label>
+            <input type="text" id="name" name="names" size="100px" placeholder="Enter your full name">
+        </div><br><br>
+
+        <div>
+            <label for="Email">What's your email? &nbsp;</label>
+            <input type="email" id="Email" name="emails" size="100px" placeholder="Enter your email address">
+        </div><br><br>
+
+        <div>
+            <label for="birth">When were you born? &nbsp;</label>
+            <input type="date" id="birth" name="born">
+        </div><br><br>
+
+        <div>
+            <label for="cOlor">What's your favorite color? &nbsp;</label>
+            <input type="color" id="cOlor" name="colors"><br><br>
+        </div><br>
+
+        <div>
+            <label for="fruit">What's your favorite fruit? &nbsp;</label>
+            <input type="text" id="fruit" name="fruits" size="50px"
+                placeholder="Enter the fruit which you like the most?">
+        </div><br>
+
+        <div>
+            <label for="currency">Which currency are you most likely going to use &nbsp;</label>
+            <input list="currencies" id="currency" name="currence">
+            <datalist id="currencies">
+                <option>Afghan afghani</option>
+                <option>Russian ruble</option>
+                <option>Euro</option>
+                <option>Albanian elk</option>
+                <option>British pound</option>
+                <option>Algerian dinar</option>
+                <option>Angolan kwanza</option>
+                <option>Armenian dram</option>
+                <option>Argentine peso</option>
+                <option>Australian dollar</option>
+                <option>Azerbaijani manat</option>
+                <option>Bahrani dinar</option>
+                <option>Bangladeshi taka</option>
+                <option>Belarusian ruble</option>
+                <option>West African CFA franc</option>
+                <option>Belize dollar</option>
+                <option>Bhutanese ngultrum</option>
+                <option>Indian rupee</option>
+                <option>Bolivian boliviano</option>
+                <option>United States of American dollar</option>
+                <option>Botswana pula</option>
+                <option>Brazilia real</option>
+                <option>Singapore dollar</option>
+                <option>Burundian franc</option>
+                <option>Cambodian riel</option>
+                <option>Canadian dollar</option>
+                <option>Cape Verdean escudo</option>
+                <option>Central African CFA franc</option>
+                <option>Chilean peso</option>
+                <option>Chinese yuan</option>
+                <option>Colombian peso</option>
+                <option>Comorian franc</option>
+                <option>Congolese franc</option>
+                <option>New Zealand dollar</option>
+                <option>Costa Rican colón</option>
+                <option>West African CFA franc</option>
+                <option>Croatian franc</option>
+                <option>Cuban peso</option>
+                <option>Czech koruna</option>
+                <option>Danish krone </option>
+                <option>Djiboutian franc</option>
+                <option>Eastern Caribbean dollar</option>
+                <option>Dominican peso</option>
+                <option>Egyptian pound</option>
+                <option>Bitcoin</option>
+                <option>Eritrean nafka</option>
+                <option>South African rand</option>
+                <option>Ethiopian birr</option>
+                <option>Fijian dollar</option>
+                <option>New Zealand dollar</option>
+                <option>Singapore dollar</option>
+                <option>Turkish lira</option>
+                <option>Jordanian dinar</option>
+                <option>Iraqi dinar</option>
+                <option>Libyan dinar</option>
+                <option>Serbian dinar</option>
+                <option>Tunisian dinar</option>
+                <option>Kuwati dinar</option>
+                <option>Iranian riel</option>
+                <option>Indonesian rupiah</option>
+                <option>Japanese yen</option>
+                <option>South Korean won</option>
+                <option>Swiss franc</option>
+                <option>Swedish krona</option>
+                <option>Ukranian hryvnia</option>
+                <option>Norwegian krone</option>
+                <option>Moldovan leu</option>
+                <option>Georgian lari</option>
+                <option>Polish zloty</option>
+                <option>Philippine peso</option>
+                <option>Yemeni rial</option>
+                <option>UAE dirham</option>
+                <option>Pakistani rupee</option>
+                <option>Sri Lankan rupee</option>
+                <option>Saudi riyal</option>
+                <option>Qatari riyal</option>
+                <option>Omani rial</option>
+                <option>Nepalese rupee</option>
+                <option>Baht</option>
+                <option>Lebanese pound</option>
+                <option>Ringgit</option>
+                <option>New Taiwan dollar</option>
+                <option>Israeli New shekel</option>
+                <option>Maldivian rufiyaa</option>
+                <option>Uzbekistan som</option>
+                <option>Somoni</option>
+                <option>Mexican peso</option>
+                <option>Peruvian sol</option>
+                <option>Uruguayan peso</option>
+                <option>Surinamese dollar</option>
+                <option>Jamaican dollar</option>
+                <option>Panamanian balboa</option>
+            </datalist>
+        </div><br>
+
+        <div>
+            Out of these, are you a-<br>
+
+            <div>
+                <label for="student">A kid who is under 18 years old or</label>
+                <input type="checkbox" id="student" name="students">
+            </div>
+
+            <div>
+                <label for="adult">An adult between 20 to 49 years old or</label>
+                <input type="checkbox" id="adult" name="adults">
+            </div>
+
+            <div>
+                <label for="elderly">Lastly an elderly person who is from 50 to 100 years or 50 to 120 years</label>
+                <input type="checkbox" id="elderly" name="elders">
+            </div>
+        </div><br><br>
+
+        <div>
+            <label for="texteditor">Which text editor are you most likely going to use? &nbsp;</label>
+            <input list="teext" id="texteditor" name="theeditortext">
+
+            <datalist id="teext">
+                <option>Microsoft Visual Studio</option>
+                <option>Notepad++</option>
+                <option>Atom</option>
+                <option>Sublime Text</option>
+                <option>Brackets</option>
+                <option>Vim</option>
+                <option>Ultra Edit</option>
+                <option>BB Edit</option>
+                <option>Notepad</option>
+                <option>Komodo Edit</option>
+                <option>Text Mate</option>
+                <option>Coffee Cup</option>
+                <option>Eclipse</option>
+                <option>Android Studio</option>
+                <option>Intelli J</option>
+                <option>PyCharm</option>
+            </datalist>
+        </div><br><br>
+
+        <div>
+            <label for="programming">Which programming language do you prefer? &nbsp;</label>
+            <select id="programming" name="programs">
+                <option value="">Choose the programming language you prefer</option>
+
+                <optgroup label="A">
+                    <option value="ada">Ada</option>
+                    <option value="algol">Algol</option>
+                </optgroup>
+
+                <optgroup label="B">
+                    <option value="ballerina">Ballerina</option>
+                    <option value="basic">Basic</option>
+                    <option value="batch">Windows Batch</option>
+                </optgroup>
+
+                <optgroup label="C">
+                    <option value="c">C</option>
+                    <option value="c++">C++</option>
+                    <option value="csharp">C#</option>
+                    <option value="cshell">C Shell</option>
+                    <option value="clo">Clojure</option>
+                    <option value="cobol">COBOL</option>
+                    <option value="cobra">Cobra</option>
+                    <option value="coffee">Coffee Script</option>
+                    <option value="common">Common LISP</option>
+                    <option value="comtran">COMTRAN</option>
+                    <option value="css">CSS (Cascading Style Sheet)</option>
+                </optgroup>
+
+                <optgroup label="D">
+                    <option value="dlang">D(dlang)</option>
+                    <option value="dart">Dart</option>
+                    <option value="datalog">Datalog</option>
+                    <option value="dcl">Digital Command Language</option>
+                    <option value="delph">Delphi</option>
+                    <option value="dock">Docker</option>
+                    <option value="drako">DRAKON</option>
+                    <option value="dylan">Dylan</option>
+                </optgroup>
+
+                <optgroup label="E">
+                    <option value="eiffel">Eiffel</option>
+                    <option value="elm">Elm</option>
+                    <option value="erlang">Erlang</option>
+                    <option value="ethereum">Ethereum</option>
+                </optgroup>
+
+                <optgroup label="F">
+                    <option value="fsharp">F#</option>
+                    <option value="faust">FAUST</option>
+                    <option value="flix">Flix</option>
+                    <option value="focal">FOCAL</option>
+                    <option value="fortran">FORTRAN</option>
+                </optgroup>
+
+                <optgroup label="G">
+                    <option value="gamemaker">GameMaker</option>
+                    <option value="gams">General Algebraic Modeling System</option>
+                    <option value="gcode">G-code</option>
+                    <option value="glsl">OpenGL Shading Language</option>
+                    <option value="guile">GNU Guile</option>
+                    <option value="golang">Golang</option>
+                    <option value="appscript">Google Apps Script</option>
+                    <option value="gotran">GOTRAN</option>
+                    <option value="grasshopper">Grasshopper</option>
+                    <option value="grooby">Groovy</option>
+                </optgroup>
+
+                <optgroup label="H">
+                    <option value="hack">Hack</option>
+                    <option value="haggis">Haggis</option>
+                    <option value="harbour">Harbour</option>
+                    <option value="haskell">Haskell</option>
+                    <option value="haxe">Haxe</option>
+                    <option value="assembly">High Level Assembly</option>
+                    <option value="hlsl">HLSL(High Level Shader Language</option>
+                    <option value="hopsotch">Hopscotch</option>
+                    <option value="html">HTML(Hyper Text Markup Language)</option>
+                    <option value="hume">Hume</option>
+                </optgroup>
+
+                <optgroup label="I">
+                    <option value="icon">Icon</option>
+                    <option value="basicassembly">IBM Basic Assembly Language</option>
+                    <option value="rpg">IBM RPG</option>
+                    <option value="ini">Ini</option>
+                    <option value="idl">Interactive Data Langauge</option>
+                    <option value="idris">Idris</option>
+                    <option value="inform">Inform</option>
+                </optgroup>
+
+                <optgroup label="J">
+                    <option value="j">J</option>
+                    <option value="jade">Jade</option>
+                    <option value="java">Java</option>
+                    <option value="javascript">JavaScript</option>
+                    <option value="jcl">Job Control Language</option>
+                    <option value="joss">JOSS</option>
+                    <option value="jovial">JOVIAL</option>
+                    <option value="jscript">JScript</option>
+                    <option value="julia">Julia</option>
+                </optgroup>
+
+                <optgroup label="K">
+                    <option value="K">K</option>
+                    <option value="karel">Karel</option>
+                    <option value="kixtart">KiXtart</option>
+                    <option value="kojo">Kojo</option>
+                    <option value="kotlin">Kotlin</option>
+                    <option value="kornshell">KornShell</option>
+                </optgroup>
+
+                <optgroup label="L">
+                    <option value="labview">LabVIEW</option>
+                    <option value="ladder">Ladder logic</option>
+                    <option value="lasso">Lasso</option>
+                    <option value="lean">Lean</option>
+                    <option value="lego">Legoscript</option>
+                    <option value="less">Less</option>
+                    <option value="lilypond">LilyPond</option>
+                    <option value="limbo">Limbo</option>
+                    <option value="linc">LINC</option>
+                    <option value="lingo">Lingo</option>
+                    <option value="linq">LINQ</option>
+                    <option value="lisp">Lisp</option>
+                    <option value="litec">Lite-C</option>
+                    <option value="logo">Logo</option>
+                    <option value="logtalk">Logtalk</option>
+                    <option value="lse">LSE</option>
+                    <option value="livecode">LiveCode</option>
+                    <option value="lua">Lua</option>
+                    <option value="lucid">Lucid</option>
+                </optgroup>
+
+                <optgroup label="M">
+                    <option value="m4">M4</option>
+                    <option value="msharp">M#</option>
+                    <option value="machinecode">Machine Code</option>
+                    <option value="mad">MAD</option>
+                    <option value="magik">Magik</option>
+                    <option value="maple">Maple</option>
+                    <option value="mapper">MAPPER</option>
+                    <option value="mary">Mary</option>
+                    <option value="matlab">MATLAB</option>
+                    <option value="macroassembler">Microsoft Macro Assembler</option>
+                    <option value="maxima">Maxima</option>
+                    <option value="max">Max</option>
+                    <option value="maxscript">MaxScript</option>
+                    <option value="maya">Maya</option>
+                    <option value="mdl">MDL(Model Development Language)</option>
+                    <option value="mercury">Mercury</option>
+                    <option value="mimic">MIMIC</option>
+                    <option value="miranda">Miranda</option>
+                    <option value="ml">ML(Meta Language)</option>
+                    <option value="modelica">Modelica</option>
+                    <option value="modula">Modula</option>
+                    <option value="modula1">Modula-1</option>
+                    <option value="modula2">Modula-2</option>
+                    <option value="modula3">Modula-3</option>
+                    <option value="mohol">Mohol</option>
+                    <option value="mortran">Mortran</option>
+                    <option value="msl">MSL</option>
+                    <option value="mumps">MUMPS</option>
+                    <option value="mystic bbs">Mystic BBS</option>
+                </optgroup>
+
+                <optgroup label="N">
+                    <option value="nasm">NASM</option>
+                    <option value="nekovm">Neko</option>
+                    <option value="nemerle">Nemerle</option>
+                    <option value="newlisp">newLisp</option>
+                    <option value="nial">Nial</option>
+                    <option value="nim">Nim</option>
+                    <option value="nsis">NSIS</option>
+                    <option value="nxtg">NXT-G</option>
+                </optgroup>
+
+                <optgroup label="O">
+                    <option value="oberon">Oberon</option>
+                    <option value="pascalobject">Object Pascal</option>
+                    <option value="objectivec">Objective-C</option>
+                    <option value="objectviecplus">Objective-C++</option>
+                    <option value="objectivej">Objective-J</option>
+                    <option value="ocaml">OCaml</option>
+                    <option value="occam">Occam</option>
+                    <option value="octave">Octave</option>
+                    <option value="omnimark">OmniMakr</option>
+                    <option value="opa">Opa</option>
+                    <option value="opernprogramming">OPL(Open Programming Language)</option>
+                    <option value="opencl">OpenCL</option>
+                    <option value="openedge">OpenEdge Advanced Business Language</option>
+                    <option value="optimj">OptimJ</option>
+                    <option value="oxygen">Oxygene</option>
+                    <option value="auz">Oz</option>
+                </optgroup>
+
+                <optgroup label="P">
+                    <option value="p4">P4</option>
+                    <option value="doubleprime">P"</option>
+                    <option value="parasail">ParaSail</option>
+                    <option value="pari/gp">PARI/GP</option>
+                    <option value="pascal">Pascal</option>
+                    <option value="pascalscript">PascalScript</option>
+                    <option value="pcastl">PCASTL</option>
+                    <option value="peoplecode">PeopleCode</option>
+                    <option value="perl">Perl</option>
+                    <option value="pdl">PDL(Perl Data Language)</option>
+                    <option value="pharo">Pharo</option>
+                    <option value="php">PHP</option>
+                    <option value="pico">Pico</option>
+                    <option value="pilot">PILOT</option>
+                    <option value="pl0">PL/0</option>
+                    <option value="plb">PL/B</option>
+                    <option value="pli">PL/I</option>
+                    <option value="plsql">PL/SQL</option>
+                    <option value="pl360">PL360</option>
+                    <option value="planc">Planc</option>
+                    <option value="plankalkül">Plankalkül</option>
+                    <option value="planner">Planner</option>
+                    <option value="pop11">POP-11</option>
+                    <option value="pop2">POP-2</option>
+                    <option value="postscript">PostScript</option>
+                    <option value="povray">POV-Ray</option>
+                    <option value="powerhouse">PowerHouse</option>
+                    <option value="powerbuilder">PowerBuilder</option>
+                    <option value="powershell">PowerShell</option>
+                    <option value="process">Processing</option>
+                    <option value="prograph">Prograph</option>
+                    <option value="prolog">Prolog</option>
+                    <option value="promela">Promela</option>
+                    <option value="prose">PROSE</option>
+                    <option value="protel">Protel</option>
+                    <option value="pure">Pure</option>
+                    <option value="puredata">Pure Data</option>
+                    <option value="purescript">PureScipt</option>
+                    <option value="pwct">PWCT</option>
+                    <option value="python">Python</option>
+
+                </optgroup>
+
+                <optgroup label="Q">
+                    <option value="q">Q</option>
+                    <option value="qsharp">Q#</option>
+                    <option value="qcl">QCL(Quantum Computation Language)</option>
+                    <option value="quakec">QuakeC</option>
+                    <option value="quantamprogram">Quantam Programming</option>
+                </optgroup>
+
+                <optgroup label="R">
+                    <option value="r">R</option>
+                    <option value="racket">Racket</option>
+                    <option value="raku">Raku</option>
+                    <option value="ratfor">Ratfor</option>
+                    <option value="rebol">Rebol</option>
+                    <option value="redcode">Redcode</option>
+                    <option value="refal">Refal</option>
+                    <option value="rexx">Rexx</option>
+                    <option value="rpg">RPG</option>
+                    <option value="ring">Ring</option>
+                    <option value="rpl">RPL</option>
+                    <option value="rtl2">RTL/2</option>
+                    <option value="ruby">Ruby</option>
+                    <option value="rust">Rust</option>
+                </optgroup>
+
+                <optgroup label="S">
+                    <option value="s2">S2</option>
+                    <option value="s3">S3</option>
+                    <option value="sas">SAS</option>
+                    <option value="sather">Sather</option>
+                    <option value="scala">Scala</option>
+                    <option value="scheme">Scheme</option>
+                    <option value="scilab">Scilab</option>
+                    <option value="scratch">Scratch</option>
+                    <option value="script.net">Script.NET</option>
+                    <option value="seds">sed</option>
+                    <option value="seed7">Seed7</option>
+                    <option value="self">Self</option>
+                    <option value="sensetalk">SenseTalk</option>
+                    <option value="sequencel">SequenceL</option>
+                    <option value="simpol">SIMPOL</option>
+                    <option value="signal">SIGNAL</option>
+                    <option value="simple">SiMPLE</option>
+                    <option value="simula">Simula</option>
+                    <option value="simulink">Simulink</option>
+                    <option value="smalltalk">Smalltalk</option>
+                    <option value="sml">SML(Standard ML)</option>
+                    <option value="snap">Snap!</option>
+                    <option value="snobol">SNOBOL</option>
+                    <option value="solidity">Solidity</option>
+                    <option value="spark">Spark</option>
+                    <option value="speakeasy">Speakeasy</option>
+                    <option value="spin">SPIN</option>
+                    <option value="sql">SQL</option>
+                    <option value="squeak">Squeak</option>
+                    <option value="squirrel">Squirrel</option>
+                    <option value="stata">Stata</option>
+                    <option value="subtext">Subtext</option>
+                    <option value="supercollider">SuperCollider</option>
+                    <option value="supertalk">SuperTalk</option>
+                    <option value="swift">Swift</option>
+                </optgroup>
+
+                <optgroup label="T">
+                    <option value="tacl">TACL</option>
+                    <option value="tacpol">TACPOL</option>
+                    <option value="tads">TADS</option>
+                    <option value="tcl">Tcl</option>
+                    <option value="teco">TECO</option>
+                    <option value="telcomp">TELCOMP</option>
+                    <option value="tEx">TeX</option>
+                    <option value="tex">TEX</option>
+                    <option value="toi">Toi</option>
+                    <option value="trac">TRAC</option>
+                    <option value="ttm">TTM</option>
+                    <option value="tsql">Transact-SQL</option>
+                    <option value="turing">Turing</option>
+                    <option value="tutor">TUTOR</option>
+                    <option value="txl">TXL</option>
+                    <option value="typescript">TypeScript</option>
+                </optgroup>
+
+                <optgroup label="U">
+                    <option value="uscdpascal">USCD Pascal</option>
+                    <option value="umple">Umple</option>
+                    <option value="unicon">Unicon</option>
+                    <option value="uniface">Uniface</option>
+                </optgroup>
+
+                <optgroup label="V">
+                    <option value="vala">Vala</option>
+                    <option value="visualbasic">VisualBasic</option>
+                    <option value="visualdata">Visual DataFlex</option>
+                    <option value="visualfox">Visual FoxPro</option>
+                    <option value="visualjplus">Visual J++</option>
+                    <option value="visuallisp">Visual Lisp</option>
+                    <option value="visualprolog">Visual Prolog</option>
+                </optgroup>
+
+                <optgroup label="W">
+                    <option value="whatfiv">WHATFIV</option>
+                    <option value="webassembly">WebAssembly</option>
+                    <option value="whiley">Whiley</option>
+                    <option value="wolfram">Wolfram Language</option>
+                </optgroup>
+
+                <optgroup label="X">
+                    <option value="xplus">X++</option>
+                    <option value="xbaseplus">XBase++</option>
+                    <option value="xharbour">xHarbour</option>
+                    <option value="xml">XML</option>
+                    <option value="xojo">Xojo</option>
+                    <option value="xpl">XPL</option>
+                    <option value="xpl0">XPL0</option>
+                    <option value="xquery">XQuery</option>
+                    <option value="xsl">XSL</option>
+                    <option value="xslt">XSLT</option>
+                    <option value="xtend">Xtend</option>
+                </optgroup>
+
+                <optgroup label="Y">
+                    <option value="yaml">YAML</option>
+                    <option value="yql">YQL (Yahoo! Query Language)</option>
+                    <option value="yoix">Yoix</option>
+                </optgroup>
+
+                <optgroup label="Z">
+                    <option value="znotation">Z notation</option>
+                    <option value="zshell">Z shell</option>
+                    <option value="zig">Zig</option>
+                </optgroup>
+
+            </select>
+        </div><br><br>
+
+
+        <div>
+            <label for="browser">Which browser would you most likely be using? &nbsp;</label>
+            <input list="browsertime" id="browser" name="browsersof">
+            <datalist id="browsertime">
+                <option>Google Chrome</option>
+                <option>Microsoft Edge</option>
+                <option>Mozilla Firefox</option>
+                <option>Safari Browser</option>
+                <option>Opera Browser</option>
+                <option>Yandex Browser</option>
+                <option>Brave Browser</option>
+                <option>Vivaldi Browser</option>
+                <option>Samsung Internet</option>
+                <option>Internet Explorer</option>
+                <option>Chromimum Browser</option>
+                <option>Blisk Browser</option>
+            </datalist>
+        </div><br><br>
+
+        <div>
+            <label for="subject">What's your favorite subject in school? &nbsp;</label>
+            <input list="subject people" id="subject" name="subjects">
+
+            <datalist id="subject people">
+                <option>Maths</option>
+                <option>Chemistry</option>
+                <option>Biology</option>
+                <option>Physics</option>
+                <option>History</option>
+                <option>Civics</option>
+                <option>Geography</option>
+                <option>Language</option>
+                <option>Computer Science</option>
+                <option>Music</option>
+                <option>Dance</option>
+                <option>Sports</option>
+                <option>Reading</option>
+                <option>Swimming</option>
+            </datalist>
+        </div><br>
+
+        <div>
+            <p>What languages do you speak? (You can select more than 1 language)<br></p>
+
+            <div>
+                <input type="radio" id="english" name="engli" value="UK">
+                <label for="english">English</label>
+            </div>
+
+            <div>
+                <input type="radio" id="french" name="frenchi" value="France">
+                <label for="french">French</label>
+            </div>
+
+            <div>
+                <input type="radio" id="spanish" name="spani" value="Spain">
+                <label for="spanish">Spanish</label>
+            </div>
+
+            <div>
+                <input type="radio" id="german" name="germani" value="Germany">
+                <label for="german">German</label>
+            </div>
+
+            <div>
+                <input type="radio" id="hindi" name="hindees" value="Hindipeople">
+                <label for="hindi">Hindi</label>
+            </div>
+
+            <div>
+                <input type="radio" id="chinese" name="chineds" value="thechinde">
+                <label for="chinese">Chinese</label>
+            </div>
+
+            <div>
+                <input type="radio" id="mandarin" name="mands" value="mando">
+                <label for="mandarin">Mandarin</label>
+            </div>
+
+            <div>
+                <input type="radio" id="bengali" name="bengals" value="benga">
+                <label for="bengali">Bengali</label>
+            </div>
+
+            <div>
+                <input type="radio" id="portuguese" name="protu" value="portu">
+                <label for="portuguese">Portuguese</label>
+            </div>
+
+            <div>
+                <input type="radio" id="russian" name="russi" value="russians">
+                <label for="russian">Russian</label>
+            </div>
+
+            <div>
+                <input type="radio" id="punjabi" name="punjab" value="poong">
+                <label for="punjabi">Punjabi</label>
+            </div>
+
+            <div>
+                <input type="radio" id="marathi" name="marth" value="marathe">
+                <label for="marathi">Marathi</label>
+            </div>
+
+            <div>
+                <input type="radio" id="telegu" name="teleg" value="togenf">
+                <label for="telegu">Telegu</label>
+            </div>
+
+            <div>
+                <input type="radio" id="tamil" name="tamils" value="tamol">
+                <label for="tamil">Tamil</label>
+            </div>
+
+            <div>
+                <input type="radio" id="korean" name="korea" value="koreas">
+                <label for="korean">Korean</label>
+            </div>
+
+            <div>
+                <input type="radio" id="turkish" name="turk" value="turkey">
+                <label for="turkish">Turkish</label>
+            </div>
+
+            <div>
+                <input type="radio" id="italian" name="italu" value="itals">
+                <label for="italian">Italian</label>
+            </div>
+
+            <div>
+                <input type="radio" id="malayalam" name="malu" value="kerala">
+                <label for="malayalam">Malayalam</label>
+            </div>
+
+            <div>
+                <input type="radio" id="gujurati" name="gujarat" value="guju">
+                <label for="gujurati">Gujurati</label>
+            </div>
+
+            <div>
+                <input type="radio" id="arabic" name="arabia" value="aro">
+                <label for="arabic">Arabic</label>
+            </div>
+
+            <div>
+                <input type="radio" id="japanese" name="japan" value="iamjapan">
+                <label for="japanese">Japanese</label>
+            </div>
+
+            <div>
+                <input type="radio" id="polish" name="pols" value="plska">
+                <label for="polish">Polish</label>
+            </div>
+
+            <div>
+                <input type="radio" id="hebrew" name="hebs" value="huba">
+                <label for="hebrew">Hebrew</label>
+            </div>
+
+            <div>
+                <input type="radio" id="romanian" name="romania" value="romans">
+                <label for="romanian">Romanian</label>
+            </div>
+
+            <div>
+                <input type="radio" id="dutch" name="duts" value="dutches">
+                <label for="dutch">Dutch</label>
+            </div>
+
+            <div>
+                <input type="radio" id="swedish" name="sweds" value="swod">
+                <label for="swedish">Swedish</label>
+            </div>
+
+            <div>
+                <input type="radio" id="odia" name="ods" value="odish">
+                <label for="odia">Odia</label>
+            </div>
+
+            <div>
+                <input type="radio" id="kannada" name="kannads" value="karna">
+                <label for="kannada">Kannada</label>
+            </div>
+
+            <div>
+                <input type="radio" id="bhojpuri" name="bhoj" value="bhoja">
+                <label for="bhojpuri">Bhojpuri</label>
+            </div>
+
+            <div>
+                <input type="radio" id="malay" name="malays" value="malyaisa">
+                <label for="malay">Malay</label>
+            </div>
+
+            <div>
+                <input type="radio" id="indonesian" name="indos" value="indonesia">
+                <label for="indonesia">Indonesian</label>
+            </div>
+
+            <div>
+                <input type="radio" id="latin" name="latos" value="lati">
+                <label for="latin">Latin</label>
+            </div>
+
+            <div>
+                <input type="radio" id="ukranian" name="ukraine" value="ukrans">
+                <label for="ukranian">Ukranian</label>
+            </div>
+
+            <div>
+                <input type="radio" id="greek" name="greeks" value="groks">
+                <label for="greek">Greek</label>
+            </div>
+
+            <div>
+                <input type="radio" id="farsi" name="farse" value="farsos">
+                <label for="farsi">Farsi</label>
+            </div>
+
+            <div>
+                <input type="radio" id="persian" name="oers" value="thepersina">
+                <label for="persian">Persian</label>
+            </div>
+
+            <div>
+                <input type="radio" id="urdu" name="uras" value="urgd">
+                <label for="urdu">Urdu</label>
+            </div>
+
+            <div>
+                <input type="radio" id="vietnamese" name="viet" value="vietg">
+                <label for="vietnamese">Vietnamese</label>
+            </div>
+
+            <div>
+                <input type="radio" id="thai" name="thaise" value="those">
+                <label for="thai">Thai</label>
+            </div>
+
+        </div><br><br>
+
+        <div>
+            <label for="message">Write a message here &nbsp;</label>
+            <textarea id="message" name="messages" maxlength="100"
+                placeholder="Enter some text or maybe just write some message. Don't make it too long. Only 100 characters allowed."
+                cols="50" rows="5"></textarea>
+        </div><br><br>
+
+        <div>
+            <label for="stay">Where are you currently staying? (I mean place, country and city ) &nbsp;</label><br><br>
+            <input type="text" id="stay" name="stays" placeholder="Current place of stay" size="150px">
+        </div><br><br>
+
+        <div>
+            <label for="country">What's your favorite country in the world? &nbsp;</label>
+            <select id="country" name="countries">
+
+                <option value="">Choose your favorite country</option>
+
+                <optgroup label="A">
+                    <option value="afghanistan">Afghanistan</option>
+                    <option value="albania">Albania</option>
+                    <option value="algeria">Algeria</option>
+                    <option value="andorra">Andorra</option>
+                    <option value="angola">Angola</option>
+                    <option value="antigua barbuda">Anitgua and Barbuda</option>
+                    <option value="argentina">Argentina</option>
+                    <option value="armenia">Armenia</option>
+                    <option value="australia">Australia</option>
+                    <option value="austria">Austria</option>
+                    <option value="azerbaijan">Azerbaijan</option>
+                </optgroup>
+
+                <optgroup label="B">
+                    <option value="bahamas">Bahamas</option>
+                    <option value="bahrain">Bahrain</option>
+                    <option value="bangladesh">Bangladesh</option>
+                    <option value="barbados">Barbados</option>
+                    <option value="belarus">Belarus</option>
+                    <option value="belgium">Belgium</option>
+                    <option value="belize">Belize</option>
+                    <option value="benin">Benin</option>
+                    <option value="bhutan">Bhutan</option>
+                    <option value="bosnia">Bosnia and Herzegovina</option>
+                    <option value="botswana">Botswana</option>
+                    <option value="brazil">Brazil</option>
+                    <option value="brunei">Brunei</option>
+                    <option value="bulgaria">Bulgaria</option>
+                    <option value="burkina">Burkina Faso</option>
+                    <option value="burundi">Burundi</option>
+                </optgroup>
+
+                <optgroup label="C">
+                    <option value="cote">Côte d'Ivoire</option>
+                    <option value="cabo">Cabo Verde</option>
+                    <option value="cambodia">Cambodia</option>
+                    <option value="cameroon">Cameroon</option>
+                    <option value="canada">Canada</option>
+                    <option value="central">Central African Republic</option>
+                    <option value="chad">Chad</option>
+                    <option value="chile">Chile</option>
+                    <option value="china">China</option>
+                    <option value="colombia">Colombia</option>
+                    <option value="comoros">Comoros</option>
+                    <option value="congo">Congo</option>
+                    <option value="costa">Costa Rica</option>
+                    <option value="croatia">Croatia</option>
+                    <option value="cuba">Cuba</option>
+                    <option value="cyprus">Cyprus</option>
+                    <option value="czech">Czech Republic</option>
+                </optgroup>
+
+                <optgroup label="D">
+                    <option value="congorepublic">Democratic Republic of the Congo</option>
+                    <option value="denmark">Denmark</option>
+                    <option value="djibouti">Djibouti</option>
+                    <option value="dominica">Dominica</option>
+                    <option value="dominican">Dominican Republic</option>
+                </optgroup>
+
+                <optgroup label="E">
+                    <option value="ecuador">Ecuador</option>
+                    <option value="egypt">Egypt</option>
+                    <option value="salvador">El Salvador</option>
+                    <option value="equatorial">Equatorial Guinea</option>
+                    <option value="eritrea">Eritrea</option>
+                    <option value="estonia">Estonia</option>
+                    <option value="ethiopia">Ethiopia</option>
+                </optgroup>
+
+                <optgroup label="F">
+                    <option value="fiji">Fiji</option>
+                    <option value="finland">Finland</option>
+                    <option value="france">France</option>
+                </optgroup>
+
+                <optgroup label="G">
+                    <option value="gabon">Gabon</option>
+                    <option value="gambia">Gambia</option>
+                    <option value="georgia">Georgia</option>
+                    <option value="germany">Germany</option>
+                    <option value="ghana">Ghana</option>
+                    <option value="greece">Greece</option>
+                    <option value="grenada">Grenada</option>
+                    <option value="guatemala">Guatemala</option>
+                    <option value="guinea">Guinea</option>
+                    <option value="bissau">Guinea-Bissau</option>
+                    <option value="guyana">Guyana</option>
+                </optgroup>
+
+                <optgroup label="H">
+                    <option value="haiti">Haiti</option>
+                    <option value="honduras">Honduras</option>
+                    <option value="hungary">Hungary</option>
+                </optgroup>
+
+                <optgroup label="I">
+                    <option value="iceland">Iceland</option>
+                    <option value="india">India</option>
+                    <option value="indonesia">Indonesia</option>
+                    <option value="iran">Iran</option>
+                    <option value="iraq">Iraq</option>
+                    <option value="ireland">Ireland</option>
+                    <option value="israel">Israel</option>
+                    <option value="italy">Italy</option>
+                </optgroup>
+
+                <optgroup label="J">
+                    <option value="jamaica">Jamaica</option>
+                    <option value="japan">Japan</option>
+                    <option value="jordan">Jordan</option>
+                </optgroup>
+
+                <optgroup label="K">
+                    <option value="kazakh">Kazakhstan</option>
+                    <option value="kenya">Kenya</option>
+                    <option value="kiribati">Kiribati</option>
+                    <option value="kuwait">Kuwait</option>
+                    <option value="kyrgyz">Kyrgyzstan</option>
+                </optgroup>
+
+                <optgroup label="L">
+                    <option value="laos">Laos</option>
+                    <option value="latvia">Latvia</option>
+                    <option value="lebanon">Lebanon</option>
+                    <option value="lesotho">Lesotho</option>
+                    <option value="liberia">Liberia</option>
+                    <option value="libya">Libya</option>
+                    <option value="liech">Liechtenstein</option>
+                    <option value="lithuania">Lithuania</option>
+                    <option value="luxembourg">Luxembourg</option>
+                </optgroup>
+
+                <optgroup label="M">
+                    <option value="madagascar">Madagascar</option>
+                    <option value="malawi">Malawi</option>
+                    <option value="malaysia">Malaysia</option>
+                    <option value="maldives">Maldives</option>
+                    <option value="mali">Mali</option>
+                    <option value="malta">Malta</option>
+                    <option value="marshall">Marshall Islands</option>
+                    <option value="mauri">Mauritania</option>
+                    <option value="mauritius">Mauritius</option>
+                    <option value="mexico">Mexico</option>
+                    <option value="micronesia">Micronesia</option>
+                    <option value="moldova">Moldova</option>
+                    <option value="monaco">Monaco</option>
+                    <option value="mongolia">Mongolia</option>
+                    <option value="montenegro">Montenegro</option>
+                    <option value="morocco">Morocco</option>
+                    <option value="mozam">Mozambique</option>
+                    <option value="myanmar">Myanmar</option>
+                </optgroup>
+
+                <optgroup label="N">
+                    <option value="namibia">Namibia</option>
+                    <option value="nauru">Nauru</option>
+                    <option value="nepal">Nepal</option>
+                    <option value="netherlands">Netherlands</option>
+                    <option value="new">New Zealand</option>
+                    <option value="nicar">Nicaragua</option>
+                    <option value="niger">Niger</option>
+                    <option value="northkorea">North Korea</option>
+                    <option value="northmacedonia">North Macedonia</option>
+                    <option value="norway">Norway</option>
+                </optgroup>
+
+                <optgroup label="O">
+                    <option value="oman">Oman</option>
+                </optgroup>
+
+                <optgroup label="P">
+                    <option value="pakistan">Pakistan</option>
+                    <option value="palau">Palau</option>
+                    <option value="palestine">Palestine</option>
+                    <option value="panama">Panama</option>
+                    <option value="papua">Papua New Guinea</option>
+                    <option value="paraguay">Paraguay</option>
+                    <option value="peru">Peru</option>
+                    <option value="phili">Philippines</option>
+                    <option value="poland">Poland</option>
+                    <option value="portugal">Portugal</option>
+                </optgroup>
+
+                <optgroup label="Q">
+                    <option value="qatar">Qatar</option>
+                </optgroup>
+
+                <optgroup label="R">
+                    <option value="romania">Romania</option>
+                    <option value="russia">Russia</option>
+                    <option value="rwanda">Rwanda</option>
+                </optgroup>
+
+                <optgroup label="S">
+                    <option value="kitts and nevis">Saint Kitts and Nevis</option>
+                    <option value="saintlucia">Saint Lucia</option>
+                    <option value="vincent and grenadines">Saint Vincent and the Grenadines</option>
+                    <option value="samoa">Samoa</option>
+                    <option value="sanmarino">San Marino</option>
+                    <option value="sao tome">Sao Tome and Principe</option>
+                    <option value="saudi">Saudi Arabia</option>
+                    <option value="senegal">Senegal</option>
+                    <option value="serbia">Serbia</option>
+                    <option value="seychelles">Seychelles</option>
+                    <option value="sierra">Sierra Leone</option>
+                    <option value="singapore">Singapore</option>
+                    <option value="slovakia">Slovakia</option>
+                    <option value="slovenia">Slovenia</option>
+                    <option value="solomon">Solomon Islands</option>
+                    <option value="somalia">Somalia</option>
+                    <option value="southafrica">South Africa</option>
+                    <option value="southkorea">South Korea</option>
+                    <option value="southsudan">South Sudan</option>
+                    <option value="spain">Spain</option>
+                    <option value="sri lanka">Sri Lanka</option>
+                    <option value="sudan">Sudan</option>
+                    <option value="suriname">Suriname</option>
+                    <option value="swaziland">Swaziland</option>
+                    <option value="sweden">Sweden</option>
+                    <option value="switzerland">Switzerland</option>
+                    <option value="syria">Syria</option>
+                </optgroup>
+
+                <optgroup label="T">
+                    <option value="tajikistan">Tajikistan</option>
+                    <option value="tanzania">Tanzania</option>
+                    <option value="thailand">Thailand</option>
+                    <option value="leste">Timor-Leste</option>
+                    <option value="togo">Togo</option>
+                    <option value="tonga">Tonga</option>
+                    <option value="trindad tobago">Trindad and Tobago</option>
+                    <option value="tunisia">Tunisia</option>
+                    <option value="turkey">Turkey</option>
+                    <option value="turkmenistan">Turkmenistan</option>
+                    <option value="tuvalu">Tuvalu</option>
+                </optgroup>
+
+                <optgroup label="U">
+                    <option value="uganda">Uganda</option>
+                    <option value="ukraine">Ukraine</option>
+                    <option value="arab emirates">United Arab Emirates</option>
+                    <option value="united kingdom">United Kingdom</option>
+                    <option value="america">United States of America</option>
+                    <option value="uruguay">Uruguay</option>
+                    <option value="uzbekistan">Uzbekistan</option>
+                </optgroup>
+
+                <optgroup label="V">
+                    <option value="vanuatu">Vanuatu</option>
+                    <option value="vatican">Vatican City</option>
+                    <option value="venezuela">Venezuela</option>
+                    <option value="vietnam">Vietnam</option>
+                </optgroup>
+
+                <optgroup label="Y">
+                    <option value="yemen">Yemen</option>
+                </optgroup>
+
+                <optgroup label="Z">
+                    <option value="zambia">Zambia</option>
+                    <option value="zimbabwe">Zimbabwe</option>
+                </optgroup>
+
+            </select>
+        </div><br><br>
+
+        <div>
+            <label for="state">Whats's your favorite state in India? &nbsp;</label>
+            <select id="state" name="states">
+                <option value="">Choose your favorite state in India</option>
+
+                <optgroup label="A">
+                    <option value="andhra">Andhra Pradesh</option>
+                    <option value="arunachal">Arunachal Pradesh</option>
+                    <option value="assam">Assam</option>
+                </optgroup>
+
+                <optgroup label="B">
+                    <option value="bihar">Bihar</option>
+                </optgroup>
+
+                <optgroup label="C">
+                    <option value="chhattisgarh">Chhattisgarh</option>
+                </optgroup>
+
+                <optgroup label="G">
+                    <option value="goa">Goa</option>
+                    <option value="gujarat">Gujarat</option>
+                </optgroup>
+
+                <optgroup label="H">
+                    <option value="haryana">Haryana</option>
+                    <option value="himachal">Himachal Pradesh</option>
+                </optgroup>
+
+                <optgroup label="J">
+                    <option value="jharkhand">Jharkhand</option>
+                </optgroup>
+
+                <optgroup label="K">
+                    <option value="karnataka">Karnataka</option>
+                    <option value="kerala">Kerala</option>
+                </optgroup>
+
+                <optgroup label="M">
+                    <option value="madhya">Madhya Pradesh</option>
+                    <option value="maharashtra">Maharashtra</option>
+                    <option value="manipur">Manipur</option>
+                    <option value="meghalaya">Meghalaya</option>
+                    <option value="mizoram">Mizoram</option>
+                </optgroup>
+
+                <optgroup label="N">
+                    <option value="nagaland">Nagaland</option>
+                </optgroup>
+
+                <optgroup label="O">
+                    <option value="odisha">Odisha</option>
+                </optgroup>
+
+                <optgroup label="P">
+                    <option value="punjab">Punjab</option>
+                </optgroup>
+
+                <optgroup label="R">
+                    <option value="rajasthan">Rajasthan</option>
+                </optgroup>
+
+                <optgroup label="S">
+                    <option value="sikkim">Sikkim</option>
+                </optgroup>
+
+                <optgroup label="T">
+                    <option value="tamil nadu">Tamil Nadu</option>
+                    <option value="telangana">Telangana</option>
+                    <option value="tripura">Tripura</option>
+                </optgroup>
+
+                <optgroup label="U">
+                    <option value="uttarakhand">Uttarakhand</option>
+                    <option value="uttar">Uttar Pradesh</option>
+                </optgroup>
+
+                <optgroup label="W">
+                    <option value="west bengal">West Bengal</option>
+                </optgroup>
+
+            </select>
+        </div><br><br>
+
+        <div>
+            <label for="territories">Which is your favorite union territory in India? &nbsp;</label>
+            <select id="territories" name="terri">
+                <option value="">Choose your favorite union territory in India</option>
+
+                <optgroup label="A">
+                    <option value="andaman">Andaman and Nicobar Islands</option>
+                </optgroup>
+
+                <optgroup label="C">
+                    <option value="chandigarh">Chandigarh</option>
+                </optgroup>
+
+                <optgroup label="D">
+                    <option value="dadra">Dadra and Nagar Haveli and Daman and Diu</option>
+                    <option value="delhi">Delhi</option>
+                </optgroup>
+
+                <optgroup label="J">
+                    <option value="jammu kashmir">Jammu and Kashmir</option>
+                </optgroup>
+
+                <optgroup label="L">
+                    <option value="ladakh">Ladakh</option>
+                    <option value="lakshadweep">Lakshadweep</option>
+                </optgroup>
+
+                <optgroup label="P">
+                    <option value="puducherry">Puducherry</option>
+                </optgroup>
+
+            </select>
+        </div><br><br>
+
+        <div>
+            <label for="months">What month do you prefer to travel outside? &nbsp;</label>
+            <input type="month" id="months" name="thyMonth">
+        </div><br><br>
+
+        <div>
+            <label for="times">What time is it in your area? &nbsp;</label>
+            <input type="time" id="times" name="yoTime">
+        </div><br><br>
+
+        <div>
+            <label for="numbers">What number do you like the most? &nbsp;</label>
+            <input type="number" id="numbers" name="numb" min="0" max="100">
+        </div><br>
+
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+
+    </form>
+</body>
+
+</html>
